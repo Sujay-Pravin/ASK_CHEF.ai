@@ -8,7 +8,7 @@ export default function Header(props) {
       <header id="header-bg">
           <h1>AskChef.ai</h1>  
           <div id="right-content">
-            <a href="../index.html" id="theme">Go Back</a>
+            <a href="https://sujay-pravin.github.io/ASK_CHEF.ai/" id="theme">Go Back</a>
           </div>
       </header>
     </>
