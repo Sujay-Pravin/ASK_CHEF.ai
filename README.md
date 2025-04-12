@@ -46,7 +46,6 @@ npm install
 
 ```
 VITE_GOOGLE_API_KEY=your_google_api_key
-VITE_HUGGINGFACE_API_KEY=your_huggingface_api_key
 ```
 
 ### 💻 Development
