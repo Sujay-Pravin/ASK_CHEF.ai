@@ -80,13 +80,9 @@ npm run deploy
   - `assets/` - Static assets
   - `styles/` - CSS modules
 
-## 🤝 Contributing
+## 🤝 Contributions
 
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
+Contributions are welcome! Please feel free to **clone this repository** and unleash your creativity to make it even better. Let your ideas shine!
 
 ## 🌐 Live Demo
 
