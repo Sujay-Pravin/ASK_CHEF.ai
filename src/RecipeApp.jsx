@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
-import Header from './Header';
 import InputForm from './InputForm';
 import Squares from './Squares';
-import './App.css';
+import './RecipeApp.css';
 
-export default function App() {
+export default function RecipeApp() {
   const [hoverColor, setHoverColor] = useState('');
 
   const handleMouseEnter = () => {
@@ -16,7 +15,7 @@ export default function App() {
   };
 
   return (
-    <div className="app">
+    <div className="recipe-app">
       <div 
         className="hover-wrapper"
         onMouseEnter={handleMouseEnter}
@@ -31,7 +30,6 @@ export default function App() {
         />
       </div>
       <div className="content-wrapper">
-        <Header />
         <InputForm />
       </div>
     </div>

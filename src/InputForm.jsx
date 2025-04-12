@@ -2,6 +2,7 @@ import React from 'react';
 import ClaudeRecipe from "./ClaudeRecipe";
 import { getRecipeFromLLaMA } from "./ai";
 import loader from './assets/loader.gif';
+import './RecipeIndex.css'
 
 let z = 0;
 
@@ -61,7 +62,18 @@ export default function InputForm() {
           <p>Unleash the culinary artist within with our AI-powered recipes!</p>
         </div>
       </div>
-      {loading && <img src={loader} id='loader' alt='Loading...' />}
+      {loading && (
+        <div className="spinner">
+          <div className="spinner-dot"></div>
+          <div className="spinner-dot"></div>
+          <div className="spinner-dot"></div>
+          <div className="spinner-dot"></div>
+          <div className="spinner-dot"></div>
+          <div className="spinner-dot"></div>
+          <div className="spinner-dot"></div>
+          <div className="spinner-dot"></div>
+        </div>
+      )}
       {recipe && !loading && <ClaudeRecipe recipe={recipe} />}
       {ingredients.length > 0 && (
         <IngredientsList ingredients={ingredients} getRecipe={getRecipe} removeIngredient={removeIngredient} btnState={btnClick} />

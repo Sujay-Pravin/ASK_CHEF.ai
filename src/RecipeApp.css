@@ -1,9 +1,9 @@
-.app {
+.recipe-app {
     position: relative;
     width: 100%;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     overflow-x: hidden;
-    background: linear-gradient(135deg, #1a1a1a, #2d2d2d);
+    /* background: linear-gradient(135deg, #1a1a1a, #2d2d2d); */
 }
 
 .hover-wrapper {
@@ -32,9 +32,6 @@
     transition: opacity 0.3s ease;
 }
 
-.hover-wrapper:hover .squares-canvas {
-    opacity: 0.6;
-}
 
 header, main {
     position: relative;
