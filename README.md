@@ -84,6 +84,10 @@ npm run deploy
 
 Contributions are welcome! Please feel free to **clone this repository** and unleash your creativity to make it even better. Let your ideas shine!
 
+## 📜 License
+
+This project is for educational and personal use. Modify and improve as you like!
+
 ## 🌐 Live Demo
 
 Visit the live application at: [https://Sujay-Pravin.github.io/ASK_CHEF.ai/](https://Sujay-Pravin.github.io/ASK_CHEF.ai/)
